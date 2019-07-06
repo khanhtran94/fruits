@@ -9,5 +9,5 @@
 fruits = ['Mango', 'Pineapple', 'Passion fruit']
 
 fruits.each do |fruit|
-	Fruit.create(name: fruit, description: "This is a #{fruit}")
+  Fruit.create(name: fruit, description: "This is a #{fruit}")
 end
