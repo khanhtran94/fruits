@@ -8,6 +8,6 @@
 
 fruits = ['Mango', 'Pineapple', 'Passion fruit']
 
-fruits.each do |f|
+fruits.each do |fruit|
 	Fruit.create(name: fruit, description: "This is a #{fruit}")
 end
